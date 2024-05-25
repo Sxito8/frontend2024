@@ -1,9 +1,24 @@
-table, td {
-    border: 1px solid black;
-    border-collapse:collapse;
+/* Estilos para la tabla */
+table {
+    border: 1px solid black; /* Agregado para visualización */
+    border-collapse: collapse;
+    width: 10%; /* Ajusta el ancho de la tabla al 100% del contenedor */
 }
 
-.center{
+/* Estilos para las celdas */
+td {
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    width: 25%; /* Ajusta el ancho de las celdas al 25% del ancho total de la tabla */
+}
+
+/* Clase para centrar elementos horizontalmente */
+.center {
     margin-left: auto;
     margin-right: auto;
+}
+
+.calculator-contair {
+    width: 400px;
+    margin: 0 auto;
 }
